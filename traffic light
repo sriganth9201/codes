@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class sample {
+    public static void main(String[]args){
+        Scanner scan=new Scanner(System.in);
+        System.out.println("enter the colour light(yellow,green,red)");
+        int colour=scan.nextInt();
+          switch(colour){
+            case"yellow";
+                  System.out.println("stop");
+                break;
+            case"green";
+                System.out.println("stop");
+                break;
+            case"red";
+               System.out.println("stop");
+                break;
+           
+            
+                default:
+                System.out.println("invalid print");
+        }
+        
+        
+        }
+    }

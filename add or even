@@ -1,4 +1,4 @@
-public class sample{
+ public class sample{
     public static void main(String[]args){
         int num=5;
         if (num==0)

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class sample{
+    public static void main(String[]args){
+    Scanner scan=new Scanner(System.in);
+    int choice;
+    int count=1;
+    int total=10;
+    do{
+        System.out.println("Enter the prod value;");
+        int a=scan.nextInt();
+        total=total+a;
+        System.out.println(count+".continue?(1 to continue/0to exit;");
+        choice=scan.nextInt();
+        count ++;
+    } 
+    while (choice !=0);
+    System.out.println("Total Amount;"+total);
+    System.out.println("Exited");
+    scan .close();
+   }
+}

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class RectangleArea {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Input width
+        System.out.print("Enter the width: ");
+        double w = sc.nextDouble();
+
+        // Input height
+        System.out.print("Enter the height: ");
+        double h = sc.nextDouble();
+
+        // Calculate area
+        double area = w * h;
+
+        // Display result
+        System.out.println("The area of the rectangle is: " + area);
+        
+        sc.close();
+    }
+}

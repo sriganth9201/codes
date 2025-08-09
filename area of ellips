@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class EllipseArea {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Input values
+        System.out.print("Enter a (half of minor axis): ");
+        double a = sc.nextDouble();
+
+        System.out.print("Enter b (half of major axis): ");
+        double b = sc.nextDouble();
+
+        // Calculate area
+        double area = Math.PI * a * b;
+
+        // Output result
+        System.out.println("Area of the ellipse = " + area);
+
+        sc.close();
+    }
+}

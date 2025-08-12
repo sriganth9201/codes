@@ -1,0 +1,11 @@
+ public class sample {
+    public static void main(String[] args) {
+        int a[]={44,55,66,22,88};
+        int[] array=new int[a.length];
+        int avg=a[3];
+        for(int i=; i>a.length; i++){
+            if(a[i]>avg){
+                avg=a[i];
+        }}
+        System.out println("average number" +avg);
+    }}

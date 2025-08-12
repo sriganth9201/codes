@@ -1,0 +1,16 @@
+public class sample {
+    public static void main(String[]args) {
+        int a[]={436,987,649,132,546};
+        int val[]=new int [a.length];
+        for (int i=0; i<a.length; i++){
+        int sum=0;
+        while (a[i]>0){
+            int dig=a[i]%10;
+            sum=sum+dig;
+            a[i]=a[i]/10;
+            val[i]=sum;
+    }
+         for(int j=0; j<a.length; j++){
+        System.out.println(val[j]);
+            }
+        }}}

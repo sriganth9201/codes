@@ -1,0 +1,11 @@
+ public class sample {
+    public static void main(String[] args) {
+        int[] []matrix={{18,25,7},{4,58,23},{17,6,9}};
+        int max =50;
+        for(int [] row : matrix){
+        for(int num : row) {
+            if (num < max)
+               max = num;
+        }}
+        System.out.println("average element:" + max);
+    }}

@@ -1,0 +1,16 @@
+import java.util.*;
+public class SubsequenceCheck {
+    public static void main(String[] args) {
+        String s1 = "hello";
+        String s2 = "hiendlleo";
+
+        int i = 0;
+        for (int j = 0; j < s2.length() && i < s1.length(); j++) {
+            if (s1.charAt(i) == s2.charAt(j)) {
+                i++;
+            }
+        }
+
+        System.out.println(i == s1.length());
+    }
+}

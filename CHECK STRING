@@ -1,0 +1,16 @@
+public class sample {
+    public static void main(String[]args){
+        String a=" chota Bheeam";
+        String b="";
+        for(int i=0; i<=0; i++){
+            char t=a.charAt(i);
+        }
+        if(b.equalsIgnoreCase(a)){
+            System.out.println("it is a palindrome:"+a);
+        }
+        else{
+            System.out.println("it is not:"+a);
+        }
+        
+    }
+}

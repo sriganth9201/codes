@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class sample {
+    public static void main(String[]args){
+        Scanner scan= new Scanner(System.in);
+        System.out.println("enter you name");
+        String a= scan.next();
+        String b="";
+        int c=0;
+        for (int i=0; i<a.length(); i++){
+            if(c<a.length()){
+                if(i==0){
+                char d=a.charAt(i);
+                b=b+Character.toUpperCase(d);
+    }
+            else{
+                char g=a.charAt(i);
+                b=b+Character.toLowerCase(g);
+    }
+    }
+        c++;
+    } 
+     System.out.println("you name is:" +b);
+    }}

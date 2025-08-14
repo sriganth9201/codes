@@ -3,21 +3,11 @@ import java.util.Scanner;
 public class SectorArea {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        // Input radius
-        System.out.print("Enter the radius (r): ");
+ System.out.print("Enter the radius (r): ");
         double r = scanner.nextDouble();
-
-        // Input angle in radians
         System.out.print("Enter the angle in radians (θ): ");
-        double theta = scanner.nextDouble();
-
-        // Calculate area
+        double theta = scanner.nextDouble()
         double area = 0.5 * r * r * theta;
-
-        // Output the result
         System.out.println("The area of the sector is: " + area);
-
-        scanner.close();
     }
 }

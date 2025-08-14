@@ -1,23 +1,12 @@
 import java.util.Scanner;
-
 public class TriangleArea {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        // Input base
         System.out.print("Enter the base: ");
         double b = sc.nextDouble();
-
-        // Input height
         System.out.print("Enter the vertical height: ");
         double h = sc.nextDouble();
-
-        // Calculate area
         double area = (b * h) / 2;
-
-        // Display result
         System.out.println("The area of the triangle is: " + area);
-        
-        sc.close();
     }
 }

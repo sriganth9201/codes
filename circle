@@ -1,19 +1,10 @@
 import java.util.Scanner;
-
 public class CircleArea {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        // Input radius
         System.out.print("Enter the radius (r): ");
         double r = scanner.nextDouble();
-
-        // Calculate area
         double area = Math.PI * r * r;
-
-        // Output the result
         System.out.println("The area of the circle is: " + area);
-
-        scanner.close();
     }
 }

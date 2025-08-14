@@ -1,0 +1,18 @@
+public class sample {
+    sample(String b){
+        String a=b;
+        System.out.println(a);
+    }
+    {
+    System.out.println("hi");
+ }  
+ static{
+       System.out.println("hii");
+        }
+        {
+ System.out.println("hello");
+  }   
+ 
+  public static void main(String[]args){
+      sample s=new sample ("Not support");
+  }}
